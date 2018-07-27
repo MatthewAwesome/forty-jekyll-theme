@@ -15,12 +15,13 @@ tiles-count: 7
 
 # social settings
 500px_url:
-facebook_url: http://www.facebook.com/matthew.awesome.23
+facebook_url: #http://www.facebook.com/matthew.awesome.23
 github_url: https://github.com/MatthewAwesome/
 instagram_url: https://instagram.com/Matthew.Awesome.23
 linkedin_url: https://www.linkedin.com/in/MatthewAwesome
 pinterest_url:
 twitter_url: https://twitter.com/MatthewEllis23
+email: matthew.p.ellis23@gmail.com
 
 # build settings
 markdown: kramdown

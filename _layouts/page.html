@@ -3,6 +3,10 @@
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Pages can have backgroun images, too. 
+
+	We should add background image as a front matter field. 
 -->
 <html>
 
@@ -11,7 +15,10 @@
 <body>
   {% include header.html %} 
 		<!-- Main -->
-		<div id="main" class="alt">
+		<div id="{{page.style}}" class="alt">
+		<!-- background image -->
+		<div class="{{page.style}}_background-image">	
+		</div>
 		<!-- One -->
 		<section id="one">
 			<div class="inner">
