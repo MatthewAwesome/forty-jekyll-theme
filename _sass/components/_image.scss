@@ -63,4 +63,18 @@ img {
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
+		&.pagetop {
+			display: inline block; 
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 100%; 
+			img {
+				display: block; 
+				width: 50%;
+				margin-left: auto; 
+				margin-right: auto; 
+			}
+			@include breakpoint(small) {
+				margin: (_size(element-margin) * 0.75) 0;
+			}
+		}
 	}
